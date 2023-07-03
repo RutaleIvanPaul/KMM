@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.rutale.noteskmm.android.androidApp-mergeDebugResources-47:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/ivanpaul/.gradle/caches/transforms-3/70f7658bc6b8d8914094c3ccdae5d405/transformed/core-1.8.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

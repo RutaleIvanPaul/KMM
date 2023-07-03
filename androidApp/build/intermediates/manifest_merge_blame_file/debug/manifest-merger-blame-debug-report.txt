@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rutale.noteskmm.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:4:5-18:19
+12        android:name="com.rutale.noteskmm.android.NoteApp"
+12-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:5:9-32
+13        android:allowBackup="false"
+13-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:6:9-36
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.8.0] /Users/ivanpaul/.gradle/caches/transforms-3/70f7658bc6b8d8914094c3ccdae5d405/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:supportsRtl="true"
+16-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:7:9-35
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:8:9-40
+19        <activity
+19-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:9:9-17:20
+20            android:name="com.rutale.noteskmm.android.MainActivity"
+20-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:10:13-41
+21            android:exported="true"
+21-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:12:13-36
+22            android:windowSoftInputMode="adjustResize" >
+22-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:11:13-55
+23            <intent-filter>
+23-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:13:13-16:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:14:17-69
+24-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:15:17-77
+26-->/Users/ivanpaul/DATA/KMM/androidApp/src/main/AndroidManifest.xml:15:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->[androidx.compose.ui:ui-tooling:1.2.1] /Users/ivanpaul/.gradle/caches/transforms-3/8e096fb3d4e3fd050af98cb55e6101c2/transformed/ui-tooling-1.2.1/AndroidManifest.xml:24:9-26:39
+30            android:name="androidx.compose.ui.tooling.PreviewActivity"
+30-->[androidx.compose.ui:ui-tooling:1.2.1] /Users/ivanpaul/.gradle/caches/transforms-3/8e096fb3d4e3fd050af98cb55e6101c2/transformed/ui-tooling-1.2.1/AndroidManifest.xml:25:13-71
+31            android:exported="true" />
+31-->[androidx.compose.ui:ui-tooling:1.2.1] /Users/ivanpaul/.gradle/caches/transforms-3/8e096fb3d4e3fd050af98cb55e6101c2/transformed/ui-tooling-1.2.1/AndroidManifest.xml:26:13-36
+32
+33        <provider
+33-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:25:9-33:20
+34            android:name="androidx.startup.InitializationProvider"
+34-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:26:13-67
+35            android:authorities="com.rutale.noteskmm.android.androidx-startup"
+35-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:27:13-68
+36            android:exported="false" >
+36-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:28:13-37
+37            <meta-data
+37-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+38                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+38-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+39                android:value="androidx.startup" />
+39-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+40        </provider>
+41
+42        <receiver
+42-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+43            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+43-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+44            android:directBootAware="false"
+44-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+45            android:enabled="true"
+45-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+46            android:exported="true"
+46-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+47            android:permission="android.permission.DUMP" >
+47-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+48            <intent-filter>
+48-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+49                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+49-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+49-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+50            </intent-filter>
+51            <intent-filter>
+51-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+52                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+52-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+52-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/ivanpaul/.gradle/caches/transforms-3/7420cd3646102dfda6cdab1a939d9ef4/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+53            </intent-filter>
+54        </receiver>
+55    </application>
+56
+57</manifest>

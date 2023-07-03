@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml:2:13-3:48
+INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml:2:13-3:48
+INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml:2:13-3:48
+	package
+		ADDED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml:3:16-45
+		INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+		INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+	xmlns:android
+		ADDED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml:2:23-81
+uses-sdk
+INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml reason: use-sdk injection requested
+INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+		ADDED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+		INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+	android:minSdkVersion
+		INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+		ADDED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
+		INJECTED from /Users/ivanpaul/DATA/KMM/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest17643863409581789789.xml
